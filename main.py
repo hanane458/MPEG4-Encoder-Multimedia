@@ -1,9 +1,9 @@
-import argparse #permet de lire les paramètres donnés dans le terminal
-import os #gérer les dossiers et chemins de fichiers.
+import argparse 
+import os 
 
-import matplotlib.pyplot as plt #afficher/sauvegarder des images et graphiques.
-import numpy as np #manipuler les matrices/images.
- #il importe les fonctions des autres fichiers du projet.
+import matplotlib.pyplot as plt 
+import numpy as np 
+ 
 from decoder import decode_sequence
 from entropy import load_bitstream, save_bitstream
 from inter import encode_inter
