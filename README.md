@@ -1,4 +1,6 @@
-# Mini encodeur video simplifie (TP)
+# MPEG4-Encoder-Multimedia
+
+Mini encodeur video simplifie (TP)
 
 ## Structure
 
@@ -21,7 +23,7 @@ pip install -r requirements.txt
 
 ## Execution
 
-Mettre 10 a 30 images dans `frames/`personnelement on a fait 20 , puis:
+Mettre 10 a 30 images dans `frames/` personnelement on a fait 20, puis:
 
 ```bash
 python main.py --frames_dir frames --output_bin output.bin --gop 5 --quality_scale 1.0
