@@ -7,7 +7,7 @@ from PIL import Image
 
 
 def ensure_dir(path: str) -> None:
-    # If path is empty (e.g. "visualisation.png" in current folder), no directory to create.
+    
     if not path:
         return
     os.makedirs(path, exist_ok=True)
